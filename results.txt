@@ -1,0 +1,103 @@
+macbookpro@MacBook-Pro-MacBook-2 andrii % git status
+На гілці main
+Ваша гілка не відрізняється від "origin/main".
+
+нічого комітити, робоче дерево чисте
+macbookpro@MacBook-Pro-MacBook-2 andrii % git branch
+  NewBranch
+* main
+macbookpro@MacBook-Pro-MacBook-2 andrii % git log
+commit 683382075099b6063e15e37d44b87ccccfa23ce4 (HEAD -> main, origin/main, origin/HEAD)
+Author: MaksymBuriachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 22:30:49 2025 +0200
+
+    Create TestFile
+
+commit b8c39c66fe265ab542383030653bc88f0def2842
+Merge: 4bbc53d b97d23a
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 21:51:00 2025 +0200
+
+    solve these conflict
+
+commit 4bbc53d7f3b5c9859175667523fd50acce839bc1
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 21:34:38 2025 +0200
+
+    exsactly my laast commit
+
+commit b97d23aceb2b8975c0eb2351129e59a14e0fe86a (origin/NewBranch, NewBranch)
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 20:00:23 2025 +0200
+
+    last commit
+
+commit 16ae0d92e649fb582bd9ae80226d76023af1c6ac
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 19:58:28 2025 +0200
+
+    third commit
+
+commit 87669070b18b27bbb75fa95cdc09f7828be1449c
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 19:56:57 2025 +0200
+
+    second commit
+
+commit 28377e34c8cdc66eded7201bcdbc504714bf3b60
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 19:48:06 2025 +0200
+
+    first commit
+
+commit 8db05c24b79d3bc5e69be3d4ab0a317cc5857db5
+Author: MaksymBuriachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 19:41:33 2025 +0200
+
+    Initial commit
+(END)
+
+commit 4bbc53d7f3b5c9859175667523fd50acce839bc1
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 21:34:38 2025 +0200
+
+    exsactly my laast commit
+
+commit b97d23aceb2b8975c0eb2351129e59a14e0fe86a (origin/NewBranch, NewBranch)
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 20:00:23 2025 +0200
+
+    last commit
+
+commit 16ae0d92e649fb582bd9ae80226d76023af1c6ac
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 19:58:28 2025 +0200
+
+    third commit
+
+commit 87669070b18b27bbb75fa95cdc09f7828be1449c
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 19:56:57 2025 +0200
+
+    second commit
+
+commit 28377e34c8cdc66eded7201bcdbc504714bf3b60
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 19:48:06 2025 +0200
+
+    first commit
+
+commit 8db05c24b79d3bc5e69be3d4ab0a317cc5857db5
+Author: MaksymBuriachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 19:41:33 2025 +0200
+
+    Initial commit
+
+zsh: suspended  git log
+macbookpro@MacBook-Pro-MacBook-2 andrii % git log --merges
+commit b8c39c66fe265ab542383030653bc88f0def2842
+Merge: 4bbc53d b97d23a
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 21:51:00 2025 +0200
+
+    solve these conflict
